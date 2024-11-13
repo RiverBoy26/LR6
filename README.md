@@ -320,6 +320,17 @@ git push
 <p>git push origin Report
 <p>git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
 
+## История операций в форматированном виде
+<p>26a9796 -> 11/13/24, 4315 Ледовских А.В. ( Положено начало отчёта )
+<p>95db379 -> 11/13/24, 4315 Ледовских А.В. ( Create second file )
+<p>9f65b43 -> 11/13/24, 4315 Ледовских А.В. ( Create first file )
+<p>732cc24 -> 11/13/24, 4315 Ледовских А.В. ( Conflict has been resolved! )
+<p>da4f1b0 -> 11/13/24, GitHub ( Create new_file )
+<p>921f53b -> 11/21/20, GitHub ( Обновление информации )
+<p>0f9f50d -> 11/21/20, GitHub ( Заполнил файл )
+<p>c08a654 -> 11/21/20, GitHub ( Файл создан пустым )
+<p>3c6e913 -> 11/21/20, GitHub ( Initial commit )
+
 
 
 
