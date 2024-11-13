@@ -103,6 +103,10 @@ git clone (ссылка на удалённый репозиторий)
 ```
 git pull
 ```
+Чтобы просмотреть файлы в локальном репозитории, необходимо ввести команду:
+```
+ls -1
+```
 На рисунке 10 представлены файлы репозитория до и после добавления 'new_file'.
 <p align="center"><img src="Screenshots/git pull.png"></p>
 <p align="center">Рисунок 10 - Установка изменений в локальном репозитории</p>
@@ -265,6 +269,56 @@ git push
 ```
 После чего все локальные изменения ветки Report появятся в удалённом репозитории
 
+## Лог команд
+<p>git config --global user.name "4315 Ледовских А.В."
+<p>git config --global user.email "ledartem@bk.ru"
+<p>cd /c/osnovy_programmirovaniya/
+<p>git clone https://github.com/RiverBoy26/LR6
+<p>cd LR6/
+<p>ls -1
+<p>git pull
+<p>ls -1
+<p>git log master
+<p>git show master
+<p>git checkout branch1
+<p>git log branch1
+<p>git show branch1
+<p>git checkout master
+<p>git show master
+<p>git merge branch1
+<p>git diff
+<p>git add mergefile.txt
+<p>git status
+<p>git commit -m "Conflict has been resolved!"
+<p>git branch -d branch1
+<p>git branch
+<p>git push origin --delete branch1
+<p>echo "Первый всегда первый!" > 1instutut.txt
+<p>git status
+<p>git add 1instutut.txt
+<p>git commit -m "Create first file"
+<p>git push
+<p>echo "Четвёртый институт - one love!" > 4instutut.txt
+<p>git status
+<p>git add 4instutut.txt
+<p>git commit -m "Create second file"
+<p>git push
+<p>git log master
+<p>git reset HEAD~1
+<p>gi log 
+<p>git log 
+<p>git branch Report
+<p>git checkout Report
+<p>git branch
+<p>git push origin Report
+<p>git checkout master
+<p>git push origin Report
+<p>git status
+<p>git add README.md
+<p>git commit -m "Положено начало отчёта"
+<p>git push
+<p>git push origin Report
+<p>git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
 
 
 
