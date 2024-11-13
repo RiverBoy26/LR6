@@ -47,21 +47,21 @@ https://github.com/Kurtyanik/LR6/ (Fork).
 ## Ход выполнения работы
 ### 1. Cоздание аккаунта на GitHub
 Чтобы создать аккаунт на сайте GitHub, необходимо перейти на данную страницу: https://github.com/signup — и заполнить форму регистрации (рис. 1).
-<p align="center"><img src="Screenshots/profile.png"></p>
+<p align="center"><img src="screenshots/profile.png"></p>
 <p align="center">Рисунок 1 - зарегистрированный аккаунт на GitHub</p>
 
 ### 2. Создание копии в личном хранилище из https://github.com/Kurtyanik/LR6/ (Fork).
 
 Следующим шагом является создание копии репозитория. Для этого нужно перейти на репозиторий преподавателя, указать параметры копирования (рис. 2) и создать копию (fork) (рис. 3).
-<p align="center"><img src="Screenshots/create fork.png"></p>
+<p align="center"><img src="screenshots/create fork.png"></p>
 <p align="center">Рисунок 2 - Настройки копирования репозитория</p>
 
-<p align="center"><img src="Screenshots/fork.png"></p>
+<p align="center"><img src="screenshots/fork.png"></p>
 <p align="center">Рисунок 3 - Скопированный репозиторий</p>
 
 ### 3. Установка Git
 Чтобы установить Git, необходимо перейти на страницу https://git-scm.com (рис. 4) и, выбрав нужную версию Git, скачать её.
-<p align="center"><img src="Screenshots/git scm.png"></p>
+<p align="center"><img src="screenshots/git scm.png"></p>
 <p align="center">Рисунок 4 - Страница для установки Git</p>
 
 ### 3. Настройка клиента Git
@@ -71,7 +71,7 @@ git config --global user.name "(username)"
 git config --global user.email "(email)"
 ```
 Настройка клиента Git представлена на рисунке 5.
-<p align="center"><img src="Screenshots/config.png"></p>
+<p align="center"><img src="screenshots/config.png"></p>
 <p align="center">Рисунок 6 - Настройка клиента git</p>
 
 ### 5. Клонирование удалённого репозитория на компьютер
@@ -83,20 +83,20 @@ cd (путь)
 ```
 git clone (ссылка на удалённый репозиторий)
 ```
-<p align="center"><img src="Screenshots/clone.png"></p>
+<p align="center"><img src="screenshots/clone.png"></p>
 <p align="center">Рисунок 6 - Клонирование удалённого репозитория на компьютер</p>
 
 ### 6. Добавление файла через интерфейс GitHub. Подтягивание изменений в локальный репозиторий
 Чтобы добавить файл через интерфейс GitHub, нужно нажать на кнопку "Add file", а затем перейти в "Create new file" (рис. 7). 
-<p align="center"><img src="Screenshots/new file11.png"></p>
+<p align="center"><img src="screenshots/new file11.png"></p>
 <p align="center">Рисунок 7 - Открытие интрефейса для создания файла</p>
 
 Далее необходимо написать название файла и его содержимое (рис. 8).
-<p align="center"><img src="Screenshots/new file12.png"></p>
+<p align="center"><img src="screenshots/new file12.png"></p>
 <p align="center">Рисунок 8 - Создание файла</p>
 
 После подтверждения изменений, созданный файл появится в репозитории(рис. 9).
-<p align="center"><img src="Screenshots/new file.png"></p>
+<p align="center"><img src="screenshots/new file.png"></p>
 <p align="center">Рисунок 9 - Созданный файл</p>
 
 Чтобы установить изменения в локальном репозитории, необходимо в него перейти и воспользоваться командой:
@@ -108,7 +108,7 @@ git pull
 ls -1
 ```
 На рисунке 10 представлены файлы репозитория до и после добавления 'new_file'.
-<p align="center"><img src="Screenshots/git pull.png"></p>
+<p align="center"><img src="screenshots/git pull.png"></p>
 <p align="center">Рисунок 10 - Установка изменений в локальном репозитории</p>
 
 ### 7. Получение истории операций для каждой из веток
@@ -118,7 +118,7 @@ git log (Название ветки)
 ```
 Так, при выполнении команды `git log master` в консоль выводится история операция для ветки master (рис. 11).
 
-<p align="center"><img src="Screenshots/git log master.png"></p>
+<p align="center"><img src="screenshots/git log master.png"></p>
 <p align="center">Рисунок 11 - История операций ветки master</p>
 
 Чтобы перейти на другую ветку можно воспользоваться командой:
@@ -126,7 +126,7 @@ git log (Название ветки)
 git checkout (название ветки)
 ```
 После перехода на ветку branch1 необходимо выполнить команду `git log branch1`, чтобы получить историю операций данной ветки (рис. 12).
-<p align="center"><img src="Screenshots/git log branch1.png"></p>
+<p align="center"><img src="screenshots/git log branch1.png"></p>
 <p align="center">Рисунок 12 - История операций ветки branch1</p>
 
 ### 8. Просмотр последних изменений
@@ -136,12 +136,12 @@ git show (Название ветки)
 ```
 Так, находясь на ветке branch1, можно выполнять команду `git show branch1`. В результате получим последние изменения на ветке branch1 (рис. 13).
 
-<p align="center"><img src="Screenshots/git show branch1.png"></p>
+<p align="center"><img src="screenshots/git show branch1.png"></p>
 <p align="center">Рисунок 13 - Последние изменения ветки branch1</p>
 
 Затем необходимо выполнить команду `git show master`, при этом находясь на ветке master, чтобы получить последние изменения ветки mastert (рис. 14).
 
-<p align="center"><img src="Screenshots/git show master.png"></p>
+<p align="center"><img src="screenshots/git show master.png"></p>
 <p align="center">Рисунок 14 - Последние изменения ветки master</p>
 
 ### 9. Выполнение слияния в ветку master, разрешив конфликт
@@ -150,19 +150,19 @@ git show (Название ветки)
 git merge (Название второй ветки)
 ```
 При попытке слить в ветку master ветку branch1 возникает конфликт (рис. 15).
-<p align="center"><img src="Screenshots/git merge branch1.png"></p>
+<p align="center"><img src="screenshots/git merge branch1.png"></p>
 <p align="center">Рисунок 15 - Появление конфликта при слияние</p>
 
 Чтобы посмотреть в консоли подробности конфликта (рис. 16), можно воспользоваться командой:
 ```
 git diff
 ```
-<p align="center"><img src="Screenshots/diff.png"></p>
+<p align="center"><img src="screenshots/diff.png"></p>
 <p align="center">Рисунок 16 - Конфликт в консоли</p>
 
 Чтобы разрешить конфликт можно использовать специальные редакторы или графический интерфейс git. Для разрешения данного конфликта был использован редактор Notepad++ (рис. 17).
 
-<p align="center"><img src="Screenshots/fix conflicts.png"></p>
+<p align="center"><img src="screenshots/fix conflicts.png"></p>
 <p align="center">Рисунок 17 - Разрешение конфликта в NotePad++</p>
 
 После того как конфликт разрешён, полученный файл необходимо зафиксировать. Для этого сначала добавляем его в индекс с помощью команды:
@@ -181,7 +181,7 @@ git commit -m "(Комментарий)"
 ```
 git push
 ```
-<p align="center"><img src="Screenshots/commit conflicts.png"></p>
+<p align="center"><img src="screenshots/commit conflicts.png"></p>
 <p align="center">Рисунок 18 - Завершение слияния веток</p>
 
 ### 10. Удаление побочной ветки 
@@ -195,7 +195,7 @@ git branch -d (Название ветки)
 ```
 git push origin --delete branch1
 ```
-<p align="center"><img src="Screenshots/delete branch1.png"></p>
+<p align="center"><img src="screenshots/delete branch1.png"></p>
 <p align="center">Рисунок 19 - Удаление ветки branch1</p>
 
 ### 11. Создание изменений и их фиксация (с комментариями);
@@ -204,10 +204,10 @@ git push origin --delete branch1
 echo "Новый текст файла" > (Название файла).txt
 ```
 Были созданы файлы 1institut.txt и 4institut.txt. Оба раза изменения репозитория фиксировались с комментариями (рис. 20 - 21)
-<p align="center"><img src="Screenshots/create first file.png"></p>
+<p align="center"><img src="screenshots/create first file.png"></p>
 <p align="center">Рисунок 20 - Первое создание файла</p>
 
-<p align="center"><img src="Screenshots/create second file.png"></p>
+<p align="center"><img src="screenshots/create second file.png"></p>
 <p align="center">Рисунок 21 - Второе создание файла</p>
 
 ### 12. Создание отката коммита
@@ -215,7 +215,7 @@ echo "Новый текст файла" > (Название файла).txt
 ```
 git log
 ```
-<p align="center"><img src="Screenshots/git log master 2.png"></p>
+<p align="center"><img src="screenshots/git log master 2.png"></p>
 <p align="center">Рисунок 22 - Проверка истории коммитов</p>
 
 Для откада последнего коммита необходимо воспользоваться командой:
@@ -223,7 +223,7 @@ git log
 git reset HEAD~1
 ```
 После отката последнего коммита ещё раз была использвана команда `git log`. До отката последний коммит был "Create second file", а после стал "Create first file", значит откат прошёл успешно (рис. 23).
-<p align="center"><img src="Screenshots/git log otkat.png"></p>
+<p align="center"><img src="screenshots/git log otkat.png"></p>
 <p align="center">Рисунок 23 - Откат последнего коммита и проверка истории коммитов</p>
 
 ### 13. Создание ветки для отчёта(Report)
@@ -235,21 +235,21 @@ git branch (Название новой ветки)
 ```
 git branch
 ```
-<p align="center"><img src="Screenshots/create Report.png"></p>
+<p align="center"><img src="screenshots/create Report.png"></p>
 <p align="center">Рисунок 24 - Создание ветки для отчёта Report</p>
-<p align="center"><img src="Screenshots/branch.png"></p>
+<p align="center"><img src="screenshots/branch.png"></p>
 <p align="center">Рисунок 25 - Проверка веток</p>
 
 Чтобы недавно созданная локальная ветка report появилась в удалённом репозитории (рис. 26), нужно воспользоваться командой:
 ```
 git push origin Report
 ```
-<p align="center"><img src="Screenshots/git push Report.png"></p>
+<p align="center"><img src="screenshots/git push Report.png"></p>
 <p align="center">Рисунок 26 - Отправка изменений в удалённый репозиторий</p>
 
 ### 14. Начало оформления отчёта в файле README.md
 Ещё одним важным требованием для выполнения лабораторной работы является написание отчёта в файле README.md. Для удобного форматирования этого файла был выбран редактор кода VS Code (рис. 27)
-<p align="center"><img src="Screenshots/readme.png"></p>
+<p align="center"><img src="screenshots/readme.png"></p>
 <p align="center">Рисунок 27 - Написание отчёта в файле README.md</p>
 
 ### 15. Получение истории операций в форматированном виде
@@ -259,7 +259,7 @@ git push origin Report
 git log --date=format:'%D' --pretty=format:"%h -> %cd, %cn ( %s )"
 ```
 
-<p align="center"><img src="Screenshots/format.png"></p>
+<p align="center"><img src="screenshots/format.png"></p>
 <p align="center">Рисунок 28 - История операций в форматированном виде</p>
 
 ### 16. Отправка локальных изменений в сетевое хранилище GitHub
